@@ -11,7 +11,7 @@ If you don't, go to https://nodejs.org/en/ and install Node.js.
 This is a node.js weather application powered that gives you the weather (Condition and temperature) in a given place.
 
 
-![Weather Preview](http://imgur.com/lrGcFie)
+![Weather Preview](http://i.imgur.com/lrGcFie.png)
 
 
 ## Setup
