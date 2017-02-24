@@ -7,6 +7,12 @@ const updateNotifier = require('update-notifier');
 const pkg = require('./package.json');
 const weather = require('./');
 
+
+
+/** 
+
+
+*/
 const cli = meow({
 	help: [
 		'Usage',
@@ -25,6 +31,11 @@ const cli = meow({
 	]
 });
 
+
+/**
+    Converts a temperature from Faranheit to Celcius
+    @parameter{float} temp - The temperature to convert
+*/
 function _toCelcius(temp) {
 	return Math.round(((temp - 32) * 5) / 9);
 }
