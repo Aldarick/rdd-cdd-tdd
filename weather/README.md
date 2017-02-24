@@ -1,9 +1,31 @@
 # cli-weather
 
-This a web application which gives the weather of a given city.
-It takes two inline parameters : 
-    - The name of a city
-    - The name of the country the city is in
-If no parameter is given, it will give, by default, the weather in Dhaka, in Bangladesh.
+## BEFORE READING
+
+Cli-Weather being a node.js application, you must have Node.js installed on your computer first. 
+If you don't, go to https://nodejs.org/en/ and install Node.js.
+
+
+## About Cli-Weather
+
+This is a node.js weather application powered that gives you the weather (Condition and temperature) in a given place.
+
+
+![Weather Preview](http://imgur.com/lrGcFie)
+
+
+## Setup
+
+After you've cloned this repo to your desktop, go to its root directory and run npm install to install its dependencies.
+
+
+## Usage 
+Just run node cli.js with the parameter you want.
+The usage is 'node cli.js --city --country --scale'
+
+
+
+
+
 
 
